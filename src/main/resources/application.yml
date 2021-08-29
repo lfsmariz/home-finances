@@ -1,0 +1,10 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: create
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+  datasource:
+    initialization-mode: always
+    url: "jdbc:postgresql://localhost:5432/finances"
+    username: postgres
+    password: samplepassword
