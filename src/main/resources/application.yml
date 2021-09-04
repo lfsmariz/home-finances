@@ -2,7 +2,7 @@ spring:
   jpa:
     hibernate:
       ddl-auto: create
-    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    database-platform: org.hibernate.dialect.PostgreSQL94Dialect
   datasource:
     initialization-mode: always
     url: "jdbc:postgresql://localhost:5432/finances"
